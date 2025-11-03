@@ -1,0 +1,9 @@
+{
+	"name": "df-AP",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e9c39174-04d3-4ebd-bfaa-a4b7103eba36",
+		"tenantId": "eb34f74a-58e7-4a8b-9e59-433e4c412757"
+	}
+}
