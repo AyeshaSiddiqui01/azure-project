@@ -226,7 +226,7 @@
 					"scripts": [
 						{
 							"type": {
-								"value": "@concat('SELECT 1')",
+								"value": "SELECT MAX(@{pipeline().parameters.cdc_col}) FROM @{pipeline().parameters.schema}.@{pipeline().parameters.table}",
 								"type": "Expression"
 							}
 						}
